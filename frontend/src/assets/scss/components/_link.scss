@@ -1,0 +1,37 @@
+a {
+  color: $black-light;
+  cursor: pointer;
+
+  &:hover {
+    color: $black-main;
+  }
+}
+
+.arrow-link {
+  color: $black-light;
+  text-decoration: none;
+  border-bottom: 1.5px solid transparent;
+  cursor: pointer;
+
+  &:hover {
+    color: $black-main;
+    border-bottom: 1.5px solid $black-main;
+  }
+
+  &.secondary {
+    color: $primary;
+
+    &:hover {
+      color: $primary-light;
+      border-bottom: 1.5px solid $primary-light;
+    }
+  }
+
+  &.back {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+

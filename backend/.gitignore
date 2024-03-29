@@ -1,0 +1,15 @@
+/public/storage
+/public/temp/*
+/storage/*.key
+/sockets/node_modules
+/vendor
+.env
+.env.backup
+.env.production
+/.idea
+/.vscode
+docker-compose.yml
+
+sec.env
+.env.temp
+docusign_private.key

@@ -1,0 +1,32 @@
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@gmail.com",
+  "phone": { "code": "+1 (US)" },
+  "addressLine1": "1770 9th Ave",
+  "city": "San Francisco",
+  "state": "California",
+  "country": "United States",
+  "zip": "94122",
+  "employeeOrApplicant": "Employee",
+  "everEmployed": "Yes",
+  "appliedPosition": "No",
+  "stillEmployed": "Yes",
+  "employmentStartDate": "2023-02-23",
+  "responsibilities": "I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a complete account of the system.",
+  "employer": {
+    "company": "SuperCo LTD",
+    "contact": "Emily Brown",
+    "phone": {
+      "code": "+1 (US)",
+      "number": "4844731538"
+    },
+    "email": "info@super-co.com",
+    "addressLine1": "104 Ellington St",
+    "city": "East Orange",
+    "state": "New Jersey",
+    "country": "United States",
+    "zip": "07017"
+  },
+  "workedAddressSameAsEmployer": true
+}

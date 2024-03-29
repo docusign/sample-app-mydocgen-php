@@ -1,0 +1,31 @@
+{
+  "Header1": "MyDocGen from DocuSign",
+  "Header2": "See how to personalize your documents before presenting them to your recipients.",
+  "Footer1": "DocuSign: It's time to agree better",
+  "Footer2": "DocuSign helps organizations connect and automate how they prepare, sign, act on, and manage agreements.",
+  "SandBoxButton": "Create Developer Account",
+  "LearnMoreButton": "Learn More",
+  "Card1": {
+    "Title": "Personal loan agreement",
+    "Description": "Personalize a template’s document with your user’s information.",
+    "Features": "<ul><li>Document generation</li><li>Embedded sending</li><li>eSignature template</li><li>Anchor tabs</li></ul>",
+    "Button": "Initiate"
+  },
+  "Card2": {
+    "Title": "HR offer letter",
+    "Description": "Personalize multiple documents with your user’s information as part of the same flow.",
+    "Features": "<ul><li>Document generation</li><li>Bulk sending</li><li>eSignature Template</li><li>Anchor tabs</li></ul>",
+    "Button": "Initiate"
+  },
+  "Card3": {
+    "Title": "Legal form",
+    "Description": "Personalize an equal pay claims application form, then send the form to your potential client using email and SMS messaging.",
+    "Features": "<ul><li>Document generation</li><li>SMS delivery</li><li>Remote sending</li><li>Anchor tabs</li></ul>",
+    "Button": "Initiate"
+  },
+  "Resources": {
+    "Title": "Resources",
+    "PhpSignatureSdk": "PHP eSignature SDK",
+    "PhpAdminSdk": "PHP Admin SDK"
+  }
+}

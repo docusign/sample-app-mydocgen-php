@@ -1,0 +1,47 @@
+.header {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    color: $black-main;
+    display: flex;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: $black-light;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.5px solid transparent;
+
+    &:hover {
+      color: $black-main;
+      border-bottom: 1.5px solid $black-main;
+    }
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+    background: $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 6px;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

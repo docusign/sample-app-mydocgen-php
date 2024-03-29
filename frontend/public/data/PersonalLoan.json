@@ -1,0 +1,19 @@
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@gmail.com",
+  "addressLine1": "1770 9th Ave",
+  "city": "San Francisco",
+  "state": "California",
+  "zip": "94122",
+  "country": "United States",
+  "loanAmount": 10000,
+  "loanRate": 5.5,
+  "loanDueDate": "2025-01-01",
+  "paymentAmount": 200,
+  "paymentDay": 10,
+  "penaltyAmount": 1000,
+  "lenderFirstName": "Michael",
+  "lenderLastName": "Brown",
+  "lenderEmail": "mbrown@tally.com"
+}

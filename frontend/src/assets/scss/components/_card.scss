@@ -1,0 +1,33 @@
+.card {
+  padding: 32px 20px;
+  background: $gray-light;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0 4px 16px 0 rgba(8, 0, 20, 0.04);
+  margin-bottom: 32px;
+
+  @include media-breakpoint-down(xs) {
+    padding: 16px 4px ;
+  }
+
+  .card-header, .card-footer {
+    background: none;
+    border: none;
+  }
+
+  .card-header .arrow-link {
+    color: $secondary-main;
+    font-size: 16px;
+    font-weight: 500;
+
+    &:hover {
+      border-bottom: 1.5px solid $secondary-main;
+    }
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+}

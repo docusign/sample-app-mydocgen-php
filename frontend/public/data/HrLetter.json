@@ -1,0 +1,88 @@
+{
+  "recipients": [
+    {
+      "name": "Evie Camacho",
+      "email": "eviecamacho@docgen.com",
+      "position": "HR manager",
+      "salary": 100000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Adelaide Knowles",
+      "email": "knowles@docgen.com",
+      "position": "HR manager",
+      "salary": 100000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Derek Bean",
+      "email": "derekbean@docgen.com",
+      "position": "CEO",
+      "salary": 2000000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Harmony Winter",
+      "email": "hawi1234@docgen.com",
+      "position": "CTO",
+      "salary": 600000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Paula Conner",
+      "email": "pauconner@docgen.com",
+      "position": "Senior developer",
+      "salary": 400000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Lola Schwartz",
+      "email": "lalalasch@docgen.com",
+      "position": "Junior developer",
+      "salary": 150000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Zaki Gates",
+      "email": "zakigates@docgen.com",
+      "position": "Project manager",
+      "salary": 250000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Zarah Brandt",
+      "email": "zahbra@docgen.com",
+      "position": "Designer",
+      "salary": 300000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Neve Bowers",
+      "email": "neve24bow@docgen.com",
+      "position": "Developer",
+      "salary": 250000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    },
+    {
+      "name": "Selina Baldwin",
+      "email": "msselibaldwin@docgen.com",
+      "position": "COO",
+      "salary": 700000,
+      "startDate": "2024-02-02",
+      "dueDate": "2024-02-01"
+    }
+  ],
+  "manager": {
+    "firstName": "Sabine",
+    "lastName": "Lee"
+  }
+}

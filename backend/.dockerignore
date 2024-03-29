@@ -1,0 +1,11 @@
+.git/
+vendor/
+tests/
+/bootstrap/cache/*.php
+.env.example
+.gitattributes
+.gitignore
+docker-compose.local.yml
+phpcs.xml
+phpmd.xml
+phpunit.xml

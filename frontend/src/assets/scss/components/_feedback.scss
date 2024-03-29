@@ -1,0 +1,44 @@
+.feedback {
+
+  .card-header {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  h6 {
+    margin-bottom: 0;
+  }
+
+  .card-footer {
+    justify-content: flex-start;
+  }
+
+  .processing {
+    color: $black-extralight;
+  }
+  .success {
+    color: $secondary-main;
+  }
+  .error {
+    color: $error-main;
+  }
+
+  .message {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+
+    &>:first-child {
+      flex: 0;
+    }
+  }
+
+  .success-link {
+    flex: 0;
+
+    .arrow-link {
+      white-space: nowrap;
+    }
+  }
+}

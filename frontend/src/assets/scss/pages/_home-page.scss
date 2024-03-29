@@ -1,0 +1,92 @@
+.home-page {
+  .features-section {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+
+
+    @media(min-width: 900px){
+      flex-direction: row;
+      gap: 3%;
+      align-items: normal;
+
+      .card-info {
+        padding: 32px min(2.5%, 32px);
+      }
+    }
+
+
+  }
+
+  .title-section {
+    text-align: center;
+    padding: 62px 0;
+    max-width: 620px;
+    margin: 0 auto;
+
+    .sub-title {
+      margin-top: 32px;
+      font-weight: 400;
+      font-size: 18px;
+      color: $black-light;
+    }
+  }
+
+  .cta-section {
+    padding: 80px 0;
+
+    .cta-title {
+      font-weight: 600;
+      font-size: 48px;
+      color: $white-main;
+      margin-bottom: 24px;
+    }
+
+    .cta-button-holder {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
+      gap: 16px
+    }
+
+    .cta-description {
+      font-weight: 400;
+      font-size: 16px;
+      color: $gray-light;
+      max-width: 620px;
+      margin: 0 auto;
+    }
+  }
+
+  .resources-section {
+    color: $primary;
+    font-size: 14px;
+    font-weight: 500;
+
+    ul {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
+
+      .resources-list-item {
+        display: flex;
+        height: 24px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $primary-light;
+      text-decoration: none;
+      border-bottom: 1.5px solid $primary-light;
+    }
+  }
+}

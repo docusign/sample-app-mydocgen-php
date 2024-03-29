@@ -1,0 +1,96 @@
+.step-ruler {
+  display: flex;
+
+  .connector {
+    flex: 1;
+    padding: 14px 0;
+
+    .shape {
+      height: 4px;
+      background: $black-extralight;
+
+      &.finished {
+        background: $secondary-main;
+      }
+    }
+  }
+}
+
+.steps-container {
+  margin-top: -32px;
+
+  .step {
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &.middle {
+      align-items: center;
+    }
+
+    &.right {
+      align-items: flex-end;
+    }
+
+    .indicator {
+      width: 32px;
+      height: 32px;
+      border-radius: 100px;
+      border: 2px solid $black-extralight;
+      background: $white-main;
+
+      &.current {
+        border: 2px solid $secondary-main;
+      }
+
+      &.finished {
+        border: none;
+        background: $secondary-main url("../../img/icon-check-white.svg") center;
+      }
+    }
+
+    .title {
+      color: $black-light;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 16px;
+
+      @include media-breakpoint-up(xs) {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      &.current {
+        color: $black-main;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+
+        @include media-breakpoint-up(sm) {
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        @include media-breakpoint-up(md) {
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+.recipient-details {
+  background: $white-main;
+  border-radius: 8px;
+  border: 1px solid $black-extraextralight;
+  padding: 12px 16px 24px;
+
+  .name {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+

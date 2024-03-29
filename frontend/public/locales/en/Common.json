@@ -1,0 +1,24 @@
+{
+  "ApplicationName": "MyDocGen",
+  "GitHubLink": "GitHub Source",
+  "Copyright": "© 2024 DocuSign Inc.",
+  "ApiDescription": {
+    "Title": "Behind the scenes"
+  },
+  "Header": {
+    "Title": "Fill in details",
+    "TemplateLink": "Preview template"
+  },
+  "Address": {
+    "Title": "Address info",
+    "Line1": "Address line 1",
+    "Line2": "Address line 2",
+    "City": "City",
+    "State": "State/Province",
+    "Zip": "Postal code",
+    "Country": "Country"
+  },
+  "Processing": "Processing...",
+  "InitiateOneMore": "Initiate one more",
+  "PhoneInvalid": "Please enter a valid phone number"
+}

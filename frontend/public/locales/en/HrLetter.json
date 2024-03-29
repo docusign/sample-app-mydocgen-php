@@ -1,0 +1,39 @@
+{
+  "Title": "HR offer letter",
+  "ApiDescription": "<h6>This sample features:</h6><ul><li>Document generation</li><li>Bulk sending</li><li>eSignature template</li><li>Anchor tabs</li></ul><h6>Code flow:</h6><p>View source file on our public <a href='https://github.com/docusign/sample-app-mydocgen-php' rel='noopener noreferrer' target='_blank'>GitHub</a>.</p><p><ol><li>Define a bulk send list and dynamically generate it as a CSV file, containing metadata and a request body and recipient data.</li><li>Create an envelope draft from the predefined template with <a href='https://developers.docusign.com/docs/esign-rest-api/reference/envelopes/envelopes/create/' target='_blank' rel='noopener noreferrer'>create</a>.</li><li>Make a call to <a href='https://developers.docusign.com/docs/esign-rest-api/reference/envelopes/documentgeneration/getenvelopedocgenformfields/' rel='noopener noreferrer' target='_blank'>getEnvelopeDocGenFormFields</a> to receive a list of the <code>docGenFormFields</code> on the document.</li><li>Update the <code>value</code> of the <code>docGenFormFields</code> specified in the response of the previous step with the provided user offer data, then use the <a href='https://developers.docusign.com/docs/esign-rest-api/reference/envelopes/documentgeneration/updateenvelopedocgenformfields/' rel='noopener noreferrer' target='_blank'>updateEnvelopeDocGenFormFields</a> method to dynamically generate a personalized document with that data.</li><li>Attach the bulk send list’s <code>listID</code> obtained in step 3 to your envelope as a custom field named <code>mailingListId</code>. </li><li>Initiate bulk send by calling <a href='https://developers.docusign.com/docs/esign-rest-api/reference/bulkenvelopes/bulksend/createbulksendrequest/' rel='noopener noreferrer' target='_blank'>createBulkSendRequest</a>.</li><li>The app displays a message notifying the user that the bulk send is complete, and the option to view/sign any of the sent documents.</li></ol></p>",
+  "Header": {
+    "Title": "Create offers"
+  },
+  "Footer": {
+    "Prev": "Previous",
+    "Next": "Next",
+    "Sign": "Go to signing"
+  },
+  "Recipients": {
+    "Title": "Select recipients",
+    "Name": "Full name",
+    "Email": "Email"
+  },
+  "Details": {
+    "Title": "Manage details",
+    "Email": "Email",
+    "Position": "Position",
+    "Salary": "Base salary per year",
+    "StartDate": "Start date",
+    "DueDate": "Due date for signing"
+  },
+  "Manager": {
+    "Title": "Add manager info",
+    "FirstName": "First name",
+    "LastName": "Last name",
+    "Email": "Email"
+  },
+  "Success": {
+    "Message": "The HR letters have been sent for signature.",
+    "LinkText": "Preview template",
+    "Name": "Full name",
+    "Email": "Email"
+  },
+  "TitleForSecondTab": "Opening the document",
+  "OpeningTheDocument": "Loading preview..."
+}

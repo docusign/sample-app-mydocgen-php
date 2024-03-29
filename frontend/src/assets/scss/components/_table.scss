@@ -1,0 +1,39 @@
+table.table {
+  border-collapse: separate;
+  border: 1px solid $black-extraextralight;
+  border-radius: 8px;
+  background: $white-main;
+  border-spacing: 0;
+
+  td {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    word-break: break-word;
+
+    &:first-child {
+      border-radius: 0 0 0 8px;
+    }
+    &:last-child {
+      border-radius: 0 0 8px 0;
+    }
+  }
+
+  th {
+    border: none;
+    background: $gray-light;
+    padding: 12px 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    &:first-child {
+      border-radius: 8px 0 0 0;
+    }
+    &:last-child {
+      border-radius: 0 8px 0 0;
+    }
+  }
+}
