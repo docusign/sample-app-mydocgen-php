@@ -2,11 +2,11 @@
 
 ## Introduction
 
-MyDocGen is a DocuSign sample application written in PHP (server) and React (client).
+MyDocGen is a Docusign sample application written in PHP (server) and React (client).
 
 MyDocGen demonstrates the following:
 
-1. **Authentication** with DocuSign via [JSON Web Token (JWT) Grant](https://developers.docusign.com/platform/auth/jwt/).
+1. **Authentication** with Docusign via [JSON Web Token (JWT) Grant](https://developers.docusign.com/platform/auth/jwt/).
 2. Three document generation use cases:
 * A **Personal loan agreement** wherein a loan agent enters the customer's personal information and selects lease terms in the prefill form to generate a fully customized loan agreement. 
 * An **HR offer letter** wherein an HR specialist generates offer letters personalized with information for up to three applicants. 
@@ -15,7 +15,7 @@ Bulk sending envelopes, sending envelopes via SMS, and embedded sending.
 
 ## Prerequisites
 
-- Create a DocuSign developer [account](https://go.docusign.com/o/sandbox/).
+- Create a Docusign developer [account](https://go.docusign.com/o/sandbox/).
 - Create an application on the [Apps and Keys](https://admindemo.docusign.com/authenticate?goTo=appsAndKeys) page and copy credentials to `backend/.env`:
   client ID (integration key), user ID, account ID and copy **RSA private key** to a file `storage/docusign_private.key`.
   This [**video**](https://www.youtube.com/watch?v=GgDqa7-L0yo) demonstrates how to create an integration key (client ID) for a user application like this example.
