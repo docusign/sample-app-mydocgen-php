@@ -1,6 +1,6 @@
 {
-  "short_name": "MyDocGen",
-  "name": "MyDocGen",
+  "short_name": "Document Generation Sample App",
+  "name": "Document Generation Sample App",
   "icons": [
     {
       "src": "favicon.png",

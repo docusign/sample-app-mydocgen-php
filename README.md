@@ -1,10 +1,10 @@
-# MyDocGen Sample Application: PHP and React
+# Document Generation Sample App: PHP and React
 
 ## Introduction
 
-MyDocGen is a Docusign sample application written in PHP (server) and React (client).
+The Document Generation Sample App is a Docusign sample application written in PHP (server) and React (client).
 
-MyDocGen demonstrates the following:
+The Document Generation Sample App demonstrates the following:
 
 1. **Authentication** with Docusign via [JSON Web Token (JWT) Grant](https://developers.docusign.com/platform/auth/jwt/).
 2. Three document generation use cases:

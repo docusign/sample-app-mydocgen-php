@@ -6,7 +6,6 @@ export const Footer = () => {
   return (
     <footer role='contentinfo' className='footer'>
       <div className='container'>
-        <span className='copyright'>{t('Copyright')}</span>
       </div>
     </footer>
   );
