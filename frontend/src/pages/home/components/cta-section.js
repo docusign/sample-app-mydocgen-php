@@ -7,8 +7,6 @@ export const CTASection = () => {
   return (
     <section className='cta-section text-center'>
       <div className='container'>
-        <h2 className='h2 cta-title'>{t('Footer1')}</h2>
-        <div className='cta-description'>{t('Footer2')}</div>
         <div className='cta-button-holder'>
           <a
             href='https://go.docusign.com/o/sandbox/'

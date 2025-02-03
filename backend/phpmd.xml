@@ -7,7 +7,7 @@
          xsi:noNamespaceSchemaLocation="
                      http://pmd.sf.net/ruleset_xml_schema.xsd">
     <description>
-        MyDocGen Sample App rules
+        Document Generation Sample App rules
     </description>
 
     <rule ref="rulesets/unusedcode.xml" />

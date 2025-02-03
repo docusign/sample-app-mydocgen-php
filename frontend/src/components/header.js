@@ -17,7 +17,7 @@ export const Header = () => {
             <span>{t('ApplicationName')}</span>
           </Link>
           <ArrowLink
-            link='https://github.com/docusign/sample-app-mydocgen-php'
+            link='https://github.com/docusign/sample-app-documentgeneration-php'
             text={t('GitHubLink')}
           />
         </nav>
